@@ -91,6 +91,7 @@ declare module pv {
     renderAs(name: string, structure: mol.Mol | mol.MolView, mode: string, options?: RenderOptions): Geometry;
 
     on(type: string, callback: ViewerReadyCallback | ViewerClickCallback): void;
+    options(name: string, value: any): void;
 
     add(name: string, obj: Geometry): Geometry;
     get(name: string): Geometry;
