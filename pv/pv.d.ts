@@ -39,6 +39,7 @@ declare module pv {
       chains(): Chain[];
       addChain(name: string): Chain;
       createEmptyView(): mol.MolView;
+      atomSelect(predicate: (atom: mol.Atom) => boolean): mol.MolView;
     }
     class MolView {
       constructor(mol: Mol);
