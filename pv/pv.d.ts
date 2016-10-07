@@ -84,6 +84,7 @@ declare module pv {
     class AtomView {
       name(): string;
     }
+    function superpose(subject: Mol | MolView, reference: Mol | MolView): void;
   }
 
   interface Viewer {
