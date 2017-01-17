@@ -1,6 +1,6 @@
 {
-  "name": "typings",
-  "version": "0.0.1",
+  "name": "cyrus-types",
+  "version": "0.1.0",
   "description": "TypeScript declaration files for Cyrus Biotechnology apps",
   "repository": {
     "type": "git",
