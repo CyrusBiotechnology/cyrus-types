@@ -1,6 +1,6 @@
 {
   "name": "cyrus-types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TypeScript declaration files for Cyrus Biotechnology apps",
   "scripts": {
     "postversion": "git push origin head && git push --tags"
