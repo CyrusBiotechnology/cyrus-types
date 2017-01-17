@@ -2,6 +2,9 @@
   "name": "cyrus-types",
   "version": "0.1.0",
   "description": "TypeScript declaration files for Cyrus Biotechnology apps",
+  "scripts": {
+    "postversion": "git push origin head && git push --tags"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CyrusBiotechnology/typings.git"
