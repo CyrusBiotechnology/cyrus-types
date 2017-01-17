@@ -1,0 +1,13 @@
+{
+  "name": "typings",
+  "version": "0.0.1",
+  "description": "TypeScript declaration files for Cyrus Biotechnology apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyrusBiotechnology/typings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CyrusBiotechnology/typings/issues"
+  },
+  "homepage": "https://github.com/CyrusBiotechnology/typings"
+}
